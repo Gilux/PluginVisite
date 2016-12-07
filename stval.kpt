@@ -1,7 +1,7 @@
 <panotour version="2.5.5.400">
  <project startChangeCursor="true" VRdesktop="right" workspaceHeight="343" objectId="0" VRcursordisplay="always" startSoundsON="true" relativePath="True" autorotationDirection="right" VRIconsColor="#ffffff" littlePlanetOnEachPanorama="false" VRIconsAlpha="255" littlePlanetDuration="3" workspaceWidth="1161" startControlsHidden="false" startWithLittlePlanet="true" startTouchType="drag" autorotationDelay="1" hideControlsDuringIntroduction="true" startMouseType="moveto" VRkeepview="right" workspaceOriginX="-1" workspaceOriginY="-1" VRCursorColor="#ffffff" workspaceScale="-1" VRCursorAlpha="255" autorotationSpeed="5" startZoomOnCursor="false" startVolume="100" autotourMode="autotourModeFull">
   <description foregroundAlpha="255" backgroundAlpha="255" name="Nouveau projet" foregroundColor="#000000" backgroundColor="#ffffff"/>
-  <group nbColumn="-1" explicit="False" objectId="11" x="255" y="124" thumbMode="False">
+  <group nbColumn="-1" explicit="False" objectId="11" x="256" y="61" thumbMode="False">
    <description foregroundAlpha="255" backgroundAlpha="255" name="Groupe 11" foregroundColor="#ffffff" backgroundColor="#808080"/>
    <pano maxFov="90" startFov="33.6" planar="false" heading="0" dontGenerateTiles="false" objectId="10" phi="0" maxPixelZoom="true" type="0" hFov="360" tourDirectory="p_20161109_123800_pn_10" minFov="1" lowres="true" x="255" y="124" vFov="33.6" startYaw="0" startPitch="0">
     <description foregroundAlpha="255" filename="stvalsources/P_20161109_123800_PN.jpg" backgroundAlpha="255" name="P_20161109_123800_PN" foregroundColor="#000000" backgroundColor="#ffffff"/>
