@@ -1,6 +1,296 @@
 <panotour version="2.5.5.400">
- <project objectId="0" startSoundsON="true" autorotationDelay="1" autorotationDirection="right" workspaceOriginX="0" workspaceOriginY="40" littlePlanetOnEachPanorama="false" autotourMode="autotourModeFull" workspaceHeight="343" VRcursordisplay="always" autorotationSpeed="5" startWithLittlePlanet="true" startZoomOnCursor="false" startControlsHidden="false" VRkeepview="right" relativePath="True" workspaceWidth="1161" startChangeCursor="true" startTouchType="drag" VRCursorColor="#ffffff" VRCursorAlpha="255" VRIconsColor="#ffffff" startMouseType="moveto" VRIconsAlpha="255" hideControlsDuringIntroduction="true" VRdesktop="right" startVolume="100" workspaceScale="-1" littlePlanetDuration="3">
+ <project objectId="0" startSoundsON="true" autorotationDelay="1" autorotationDirection="right" workspaceOriginX="134" workspaceOriginY="0" littlePlanetOnEachPanorama="false" autotourMode="autotourModeFull" workspaceHeight="452" VRcursordisplay="always" autorotationSpeed="5" startWithLittlePlanet="true" startZoomOnCursor="false" startControlsHidden="false" VRkeepview="right" relativePath="True" workspaceWidth="1161" startChangeCursor="true" startTouchType="drag" VRCursorColor="#ffffff" VRCursorAlpha="255" VRIconsColor="#ffffff" startMouseType="moveto" VRIconsAlpha="255" hideControlsDuringIntroduction="true" VRdesktop="right" startVolume="100" workspaceScale="-1" littlePlanetDuration="3">
   <description foregroundColor="#000000" backgroundColor="#ffffff" name="Nouveau projet" foregroundAlpha="255" backgroundAlpha="255"/>
+  <group objectId="59" thumbMode="False" x="35" y="61" nbColumn="-1" explicit="False">
+   <description foregroundColor="#ffffff" backgroundColor="#808080" name="Groupe 59" foregroundAlpha="255" backgroundAlpha="255"/>
+   <pano objectId="58" x="-1" y="-1" vFov="180" minFov="1" lowres="true" tourDirectory="gare_4_58" maxPixelZoom="true" startPitch="0" maxFov="90" startYaw="0" dontGenerateTiles="false" heading="0" type="0" planar="false" hFov="360" startFov="90" phi="0">
+    <description foregroundColor="#000000" backgroundColor="#ffffff" name="gare_4" foregroundAlpha="255" filename="stvalsources/gare_4.jpg" backgroundAlpha="255"/>
+    <spot objectId="80" type="polygon" relativeX="0.371199" relativeY="0.654122" x="50.6798" y="44.0591">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action type="Object" description="Aller à quai_1" locked="False" targetId="60" sourceId="58" actionChooserRef="" id="object" customTargetView="False" startFov="90" depends="" contentTemplate="" startPitch="0" name="Aller vers un panorama ou un groupe" category="basic" callTemplate="loadpanoramaactioncall.tmpl" startYaw="0" internal="0">
+       <select id="sourcetransition" default="none" name="Transition de la source" uiPreview="false" customize="true">
+        <item value="none" name="Aucun"/>
+        <item value="looktospot" name="Look to the spot"/>
+        <item value="zoominonspot" name="Zoomer sur le point"/>
+        <item value="zoomoutonpanorama" name="Zoom -"/>
+       </select>
+       <select id="targettransition" default="loadspotview" name="Transition de la cible" uiPreview="false" customize="true">
+        <item value="none" name="Aucun"/>
+        <item value="spotviewtopanoview" name="Vue personnalisée à vue du panorama"/>
+        <item value="loadspotview" name="Chargement de la vue personnalisée"/>
+        <item value="loadpanoview" name="Charge de la vue du panorama"/>
+        <item value="panoviewtospotview" name="Vue du panorama vers vue personnalisée"/>
+       </select>
+      </action>
+     </presetAction>
+     <point x="0.336315" y="0.673835"/>
+     <point x="0.375671" y="0.605735"/>
+     <point x="0.406082" y="0.702509"/>
+    </spot>
+   </pano>
+  </group>
+  <group objectId="61" thumbMode="False" x="240" y="-1" nbColumn="-1" explicit="False">
+   <description foregroundColor="#ffffff" backgroundColor="#808080" name="Groupe 61" foregroundAlpha="255" backgroundAlpha="255"/>
+   <pano objectId="60" x="-1" y="-1" vFov="180" minFov="1" lowres="true" tourDirectory="quai_1_60" maxPixelZoom="true" startPitch="0" maxFov="90" startYaw="0" dontGenerateTiles="false" heading="0" type="0" planar="false" hFov="360" startFov="90" phi="0">
+    <description foregroundColor="#000000" backgroundColor="#ffffff" name="quai_1" foregroundAlpha="255" filename="stvalsources/quai_1.jpg" backgroundAlpha="255"/>
+    <spot objectId="81" type="polygon" relativeX="0.528623" relativeY="0.496416" x="74.2934" y="32.2312">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action type="Object" description="Aller à quai_2(charcho_sel)_2" locked="False" targetId="62" sourceId="60" actionChooserRef="" id="object" customTargetView="False" startFov="90" depends="" contentTemplate="" startPitch="0" name="Aller vers un panorama ou un groupe" category="basic" callTemplate="loadpanoramaactioncall.tmpl" startYaw="0" internal="0">
+       <select id="sourcetransition" default="none" name="Transition de la source" uiPreview="false" customize="true">
+        <item value="none" name="Aucun"/>
+        <item value="looktospot" name="Look to the spot"/>
+        <item value="zoominonspot" name="Zoomer sur le point"/>
+        <item value="zoomoutonpanorama" name="Zoom -"/>
+       </select>
+       <select id="targettransition" default="loadspotview" name="Transition de la cible" uiPreview="false" customize="true">
+        <item value="none" name="Aucun"/>
+        <item value="spotviewtopanoview" name="Vue personnalisée à vue du panorama"/>
+        <item value="loadspotview" name="Chargement de la vue personnalisée"/>
+        <item value="loadpanoview" name="Charge de la vue du panorama"/>
+        <item value="panoviewtospotview" name="Vue du panorama vers vue personnalisée"/>
+       </select>
+      </action>
+     </presetAction>
+     <point x="0.488372" y="0.55914"/>
+     <point x="0.466905" y="0.433692"/>
+     <point x="0.59034" y="0.462366"/>
+    </spot>
+   </pano>
+  </group>
+  <group objectId="63" thumbMode="False" x="450" y="-1" nbColumn="-1" explicit="False">
+   <description foregroundColor="#ffffff" backgroundColor="#808080" name="Groupe 63" foregroundAlpha="255" backgroundAlpha="255"/>
+   <pano objectId="62" x="-1" y="-1" vFov="180" minFov="1" lowres="true" tourDirectory="quai_2_charcho_sel___62" maxPixelZoom="true" startPitch="0" maxFov="90" startYaw="0" dontGenerateTiles="false" heading="0" type="0" planar="false" hFov="360" startFov="90" phi="0">
+    <description foregroundColor="#000000" backgroundColor="#ffffff" name="quai_2(charcho_sel)_2" foregroundAlpha="255" filename="stvalsources/quai_2(charcho_sel)_2.jpg" backgroundAlpha="255"/>
+    <spot objectId="82" type="polygon" relativeX="0.449911" relativeY="0.548387" x="62.4866" y="36.129">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action type="Object" description="Aller à quai_3_1" locked="False" targetId="66" sourceId="62" actionChooserRef="" id="object" customTargetView="False" startFov="90" depends="" contentTemplate="" startPitch="0" name="Aller vers un panorama ou un groupe" category="basic" callTemplate="loadpanoramaactioncall.tmpl" startYaw="0" internal="0">
+       <select id="sourcetransition" default="none" name="Transition de la source" uiPreview="false" customize="true">
+        <item value="none" name="Aucun"/>
+        <item value="looktospot" name="Look to the spot"/>
+        <item value="zoominonspot" name="Zoomer sur le point"/>
+        <item value="zoomoutonpanorama" name="Zoom -"/>
+       </select>
+       <select id="targettransition" default="loadspotview" name="Transition de la cible" uiPreview="false" customize="true">
+        <item value="none" name="Aucun"/>
+        <item value="spotviewtopanoview" name="Vue personnalisée à vue du panorama"/>
+        <item value="loadspotview" name="Chargement de la vue personnalisée"/>
+        <item value="loadpanoview" name="Charge de la vue du panorama"/>
+        <item value="panoviewtospotview" name="Vue du panorama vers vue personnalisée"/>
+       </select>
+      </action>
+     </presetAction>
+     <point x="0.474061" y="0.562724"/>
+     <point x="0.427549" y="0.480287"/>
+     <point x="0.42576" y="0.616487"/>
+    </spot>
+   </pano>
+  </group>
+  <group objectId="67" thumbMode="False" x="662" y="-1" nbColumn="-1" explicit="False">
+   <description foregroundColor="#ffffff" backgroundColor="#808080" name="Groupe 67" foregroundAlpha="255" backgroundAlpha="255"/>
+   <pano objectId="66" x="-1" y="-1" vFov="180" minFov="1" lowres="true" tourDirectory="quai_3_1_66" maxPixelZoom="true" startPitch="0" maxFov="90" startYaw="0" dontGenerateTiles="false" heading="0" type="0" planar="false" hFov="360" startFov="90" phi="0">
+    <description foregroundColor="#000000" backgroundColor="#ffffff" name="quai_3_1" foregroundAlpha="255" filename="stvalsources/quai_3_1.jpg" backgroundAlpha="255"/>
+    <spot objectId="83" type="polygon" relativeX="0.4678" relativeY="0.517921" x="65.1699" y="33.8441">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action type="Object" description="Aller à quai_4" locked="False" targetId="68" sourceId="66" actionChooserRef="" id="object" customTargetView="False" startFov="90" depends="" contentTemplate="" startPitch="0" name="Aller vers un panorama ou un groupe" category="basic" callTemplate="loadpanoramaactioncall.tmpl" startYaw="0" internal="0">
+       <select id="sourcetransition" default="none" name="Transition de la source" uiPreview="false" customize="true">
+        <item value="none" name="Aucun"/>
+        <item value="looktospot" name="Look to the spot"/>
+        <item value="zoominonspot" name="Zoomer sur le point"/>
+        <item value="zoomoutonpanorama" name="Zoom -"/>
+       </select>
+       <select id="targettransition" default="loadspotview" name="Transition de la cible" uiPreview="false" customize="true">
+        <item value="none" name="Aucun"/>
+        <item value="spotviewtopanoview" name="Vue personnalisée à vue du panorama"/>
+        <item value="loadspotview" name="Chargement de la vue personnalisée"/>
+        <item value="loadpanoview" name="Charge de la vue du panorama"/>
+        <item value="panoviewtospotview" name="Vue du panorama vers vue personnalisée"/>
+       </select>
+      </action>
+     </presetAction>
+     <point x="0.484794" y="0.620072"/>
+     <point x="0.411449" y="0.491039"/>
+     <point x="0.52415" y="0.415771"/>
+    </spot>
+   </pano>
+  </group>
+  <group objectId="69" thumbMode="False" x="854" y="-1" nbColumn="-1" explicit="False">
+   <description foregroundColor="#ffffff" backgroundColor="#808080" name="Groupe 69" foregroundAlpha="255" backgroundAlpha="255"/>
+   <pano objectId="68" x="-1" y="-1" vFov="180" minFov="1" lowres="true" tourDirectory="quai_4_68" maxPixelZoom="true" startPitch="0" maxFov="90" startYaw="0" dontGenerateTiles="false" heading="0" type="0" planar="false" hFov="360" startFov="90" phi="0">
+    <description foregroundColor="#000000" backgroundColor="#ffffff" name="quai_4" foregroundAlpha="255" filename="stvalsources/quai_4.jpg" backgroundAlpha="255"/>
+    <spot objectId="84" type="polygon" relativeX="0.348837" relativeY="0.437276" x="47.3256" y="27.7957">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action type="Object" description="Aller à quai_5" locked="False" targetId="70" sourceId="68" actionChooserRef="" id="object" customTargetView="False" startFov="90" depends="" contentTemplate="" startPitch="0" name="Aller vers un panorama ou un groupe" category="basic" callTemplate="loadpanoramaactioncall.tmpl" startYaw="0" internal="0">
+       <select id="sourcetransition" default="none" name="Transition de la source" uiPreview="false" customize="true">
+        <item value="none" name="Aucun"/>
+        <item value="looktospot" name="Look to the spot"/>
+        <item value="zoominonspot" name="Zoomer sur le point"/>
+        <item value="zoomoutonpanorama" name="Zoom -"/>
+       </select>
+       <select id="targettransition" default="loadspotview" name="Transition de la cible" uiPreview="false" customize="true">
+        <item value="none" name="Aucun"/>
+        <item value="spotviewtopanoview" name="Vue personnalisée à vue du panorama"/>
+        <item value="loadspotview" name="Chargement de la vue personnalisée"/>
+        <item value="loadpanoview" name="Charge de la vue du panorama"/>
+        <item value="panoviewtospotview" name="Vue du panorama vers vue personnalisée"/>
+       </select>
+      </action>
+     </presetAction>
+     <point x="0.354204" y="0.594982"/>
+     <point x="0.26297" y="0.369176"/>
+     <point x="0.434705" y="0.27957"/>
+    </spot>
+   </pano>
+  </group>
+  <group objectId="71" thumbMode="False" x="230" y="146" nbColumn="-1" explicit="False">
+   <description foregroundColor="#ffffff" backgroundColor="#808080" name="Groupe 71" foregroundAlpha="255" backgroundAlpha="255"/>
+   <pano objectId="70" x="-1" y="-1" vFov="180" minFov="1" lowres="true" tourDirectory="quai_5_70" maxPixelZoom="true" startPitch="0" maxFov="90" startYaw="0" dontGenerateTiles="false" heading="0" type="0" planar="false" hFov="360" startFov="90" phi="0">
+    <description foregroundColor="#000000" backgroundColor="#ffffff" name="quai_5" foregroundAlpha="255" filename="stvalsources/quai_5.jpg" backgroundAlpha="255"/>
+    <spot objectId="85" type="polygon" relativeX="0.529517" relativeY="0.299283" x="74.4276" y="17.4462">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action type="Object" description="Aller à quai_6" locked="False" targetId="72" sourceId="70" actionChooserRef="" id="object" customTargetView="False" startFov="90" depends="" contentTemplate="" startPitch="0" name="Aller vers un panorama ou un groupe" category="basic" callTemplate="loadpanoramaactioncall.tmpl" startYaw="0" internal="0">
+       <select id="sourcetransition" default="none" name="Transition de la source" uiPreview="false" customize="true">
+        <item value="none" name="Aucun"/>
+        <item value="looktospot" name="Look to the spot"/>
+        <item value="zoominonspot" name="Zoomer sur le point"/>
+        <item value="zoomoutonpanorama" name="Zoom -"/>
+       </select>
+       <select id="targettransition" default="loadspotview" name="Transition de la cible" uiPreview="false" customize="true">
+        <item value="none" name="Aucun"/>
+        <item value="spotviewtopanoview" name="Vue personnalisée à vue du panorama"/>
+        <item value="loadspotview" name="Chargement de la vue personnalisée"/>
+        <item value="loadpanoview" name="Charge de la vue du panorama"/>
+        <item value="panoviewtospotview" name="Vue du panorama vers vue personnalisée"/>
+       </select>
+      </action>
+     </presetAction>
+     <point x="0.493739" y="0.390681"/>
+     <point x="0.402504" y="0.301075"/>
+     <point x="0.65653" y="0.207885"/>
+    </spot>
+   </pano>
+  </group>
+  <group objectId="76" thumbMode="False" x="422" y="146" nbColumn="-1" explicit="False">
+   <description foregroundColor="#ffffff" backgroundColor="#808080" name="Groupe 76" foregroundAlpha="255" backgroundAlpha="255"/>
+   <pano objectId="72" x="-1" y="-1" vFov="180" minFov="1" lowres="true" tourDirectory="quai_6_72" maxPixelZoom="true" startPitch="0" maxFov="90" startYaw="0" dontGenerateTiles="false" heading="0" type="0" planar="false" hFov="360" startFov="90" phi="0">
+    <description foregroundColor="#000000" backgroundColor="#ffffff" name="quai_6" foregroundAlpha="255" filename="stvalsources/quai_6.jpg" backgroundAlpha="255"/>
+    <spot objectId="86" type="polygon" relativeX="0.398032" relativeY="0.327957" x="54.7048" y="19.5968">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action type="Object" description="Aller à quai_7" locked="False" targetId="73" sourceId="72" actionChooserRef="" id="object" customTargetView="False" startFov="90" depends="" contentTemplate="" startPitch="0" name="Aller vers un panorama ou un groupe" category="basic" callTemplate="loadpanoramaactioncall.tmpl" startYaw="0" internal="0">
+       <select id="sourcetransition" default="none" name="Transition de la source" uiPreview="false" customize="true">
+        <item value="none" name="Aucun"/>
+        <item value="looktospot" name="Look to the spot"/>
+        <item value="zoominonspot" name="Zoomer sur le point"/>
+        <item value="zoomoutonpanorama" name="Zoom -"/>
+       </select>
+       <select id="targettransition" default="loadspotview" name="Transition de la cible" uiPreview="false" customize="true">
+        <item value="none" name="Aucun"/>
+        <item value="spotviewtopanoview" name="Vue personnalisée à vue du panorama"/>
+        <item value="loadspotview" name="Chargement de la vue personnalisée"/>
+        <item value="loadpanoview" name="Charge de la vue du panorama"/>
+        <item value="panoviewtospotview" name="Vue du panorama vers vue personnalisée"/>
+       </select>
+      </action>
+     </presetAction>
+     <point x="0.457961" y="0.333333"/>
+     <point x="0.338104" y="0.21147"/>
+     <point x="0.402504" y="0.444444"/>
+    </spot>
+   </pano>
+  </group>
+  <group objectId="77" thumbMode="False" x="614" y="146" nbColumn="-1" explicit="False">
+   <description foregroundColor="#ffffff" backgroundColor="#808080" name="Groupe 77" foregroundAlpha="255" backgroundAlpha="255"/>
+   <pano objectId="73" x="-1" y="-1" vFov="180" minFov="1" lowres="true" tourDirectory="quai_7_73" maxPixelZoom="true" startPitch="0" maxFov="90" startYaw="0" dontGenerateTiles="false" heading="0" type="0" planar="false" hFov="360" startFov="90" phi="0">
+    <description foregroundColor="#000000" backgroundColor="#ffffff" name="quai_7" foregroundAlpha="255" filename="stvalsources/quai_7.jpg" backgroundAlpha="255"/>
+    <spot objectId="87" type="polygon" relativeX="0.471377" relativeY="0.340502" x="65.7066" y="20.5376">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action type="Object" description="Aller à quai_8" locked="False" targetId="74" sourceId="73" actionChooserRef="" id="object" customTargetView="False" startFov="90" depends="" contentTemplate="" startPitch="0" name="Aller vers un panorama ou un groupe" category="basic" callTemplate="loadpanoramaactioncall.tmpl" startYaw="0" internal="0">
+       <select id="sourcetransition" default="none" name="Transition de la source" uiPreview="false" customize="true">
+        <item value="none" name="Aucun"/>
+        <item value="looktospot" name="Look to the spot"/>
+        <item value="zoominonspot" name="Zoomer sur le point"/>
+        <item value="zoomoutonpanorama" name="Zoom -"/>
+       </select>
+       <select id="targettransition" default="loadspotview" name="Transition de la cible" uiPreview="false" customize="true">
+        <item value="none" name="Aucun"/>
+        <item value="spotviewtopanoview" name="Vue personnalisée à vue du panorama"/>
+        <item value="loadspotview" name="Chargement de la vue personnalisée"/>
+        <item value="loadpanoview" name="Charge de la vue du panorama"/>
+        <item value="panoviewtospotview" name="Vue du panorama vers vue personnalisée"/>
+       </select>
+      </action>
+     </presetAction>
+     <point x="0.504472" y="0.44086"/>
+     <point x="0.406082" y="0.318996"/>
+     <point x="0.536673" y="0.240143"/>
+    </spot>
+   </pano>
+  </group>
+  <group objectId="78" thumbMode="False" x="806" y="146" nbColumn="-1" explicit="False">
+   <description foregroundColor="#ffffff" backgroundColor="#808080" name="Groupe 78" foregroundAlpha="255" backgroundAlpha="255"/>
+   <pano objectId="74" x="-1" y="-1" vFov="180" minFov="1" lowres="true" tourDirectory="quai_8_74" maxPixelZoom="true" startPitch="0" maxFov="90" startYaw="0" dontGenerateTiles="false" heading="0" type="0" planar="false" hFov="360" startFov="90" phi="0">
+    <description foregroundColor="#000000" backgroundColor="#ffffff" name="quai_8" foregroundAlpha="255" filename="stvalsources/quai_8.jpg" backgroundAlpha="255"/>
+    <spot objectId="88" type="polygon" relativeX="0.5161" relativeY="0.329749" x="72.415" y="19.7312">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action type="Object" description="Aller à quai_9" locked="False" targetId="75" sourceId="74" actionChooserRef="" id="object" customTargetView="False" startFov="90" depends="" contentTemplate="" startPitch="0" name="Aller vers un panorama ou un groupe" category="basic" callTemplate="loadpanoramaactioncall.tmpl" startYaw="0" internal="0">
+       <select id="sourcetransition" default="none" name="Transition de la source" uiPreview="false" customize="true">
+        <item value="none" name="Aucun"/>
+        <item value="looktospot" name="Look to the spot"/>
+        <item value="zoominonspot" name="Zoomer sur le point"/>
+        <item value="zoomoutonpanorama" name="Zoom -"/>
+       </select>
+       <select id="targettransition" default="loadspotview" name="Transition de la cible" uiPreview="false" customize="true">
+        <item value="none" name="Aucun"/>
+        <item value="spotviewtopanoview" name="Vue personnalisée à vue du panorama"/>
+        <item value="loadspotview" name="Chargement de la vue personnalisée"/>
+        <item value="loadpanoview" name="Charge de la vue du panorama"/>
+        <item value="panoviewtospotview" name="Vue du panorama vers vue personnalisée"/>
+       </select>
+      </action>
+     </presetAction>
+     <point x="0.515206" y="0.469534"/>
+     <point x="0.415027" y="0.250896"/>
+     <point x="0.617174" y="0.189964"/>
+    </spot>
+   </pano>
+  </group>
+  <group objectId="79" thumbMode="False" x="134" y="292" nbColumn="-1" explicit="False">
+   <description foregroundColor="#ffffff" backgroundColor="#808080" name="Groupe 79" foregroundAlpha="255" backgroundAlpha="255"/>
+   <pano objectId="75" x="-1" y="-1" vFov="180" minFov="1" lowres="true" tourDirectory="quai_9_75" maxPixelZoom="true" startPitch="0" maxFov="90" startYaw="0" dontGenerateTiles="false" heading="0" type="0" planar="false" hFov="360" startFov="90" phi="0">
+    <description foregroundColor="#000000" backgroundColor="#ffffff" name="quai_9" foregroundAlpha="255" filename="stvalsources/quai_9.jpg" backgroundAlpha="255"/>
+    <spot objectId="89" type="polygon" relativeX="0.517889" relativeY="0.320789" x="72.6834" y="19.0591">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action type="Object" description="Aller à gare_4" locked="False" targetId="58" sourceId="75" actionChooserRef="" id="object" customTargetView="False" startFov="90" depends="" contentTemplate="" startPitch="0" name="Aller vers un panorama ou un groupe" category="basic" callTemplate="loadpanoramaactioncall.tmpl" startYaw="0" internal="0">
+       <select id="sourcetransition" default="none" name="Transition de la source" uiPreview="false" customize="true">
+        <item value="none" name="Aucun"/>
+        <item value="looktospot" name="Look to the spot"/>
+        <item value="zoominonspot" name="Zoomer sur le point"/>
+        <item value="zoomoutonpanorama" name="Zoom -"/>
+       </select>
+       <select id="targettransition" default="loadspotview" name="Transition de la cible" uiPreview="false" customize="true">
+        <item value="none" name="Aucun"/>
+        <item value="spotviewtopanoview" name="Vue personnalisée à vue du panorama"/>
+        <item value="loadspotview" name="Chargement de la vue personnalisée"/>
+        <item value="loadpanoview" name="Charge de la vue du panorama"/>
+        <item value="panoviewtospotview" name="Vue du panorama vers vue personnalisée"/>
+       </select>
+      </action>
+     </presetAction>
+     <point x="0.511628" y="0.387097"/>
+     <point x="0.47585" y="0.25448"/>
+     <point x="0.559928" y="0.286738"/>
+    </spot>
+   </pano>
+  </group>
   <build useMultiResolution="true" desktopTour="true" imgJpegQuality="9" html5Tour="true" displayErrors="true" flashTour="true" useMobileScale="true" encryptConfig="false" lang="fr" htmlTemplate="fullpage.html" mobilesTour="true" baseDir="/Users/vincentpochon/Desktop/ProjetStVal" iBookTour="false" exportComments="true" websiteWithCredentials="false" filename="StVal"/>
   <plugins/>
   <author objectId="1" url="">

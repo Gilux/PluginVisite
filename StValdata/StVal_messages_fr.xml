@@ -9,10 +9,34 @@
 
 
 
-  <data name="fr_pano10_title"><![CDATA[P_20161109_123800_PN]]></data>
+  <data name="fr_pano58_title"><![CDATA[gare_4]]></data>
 
 
-  <data name="fr_pano51_title"><![CDATA[IMG_0267]]></data>
+  <data name="fr_pano60_title"><![CDATA[quai_1]]></data>
+
+
+  <data name="fr_pano62_title"><![CDATA[quai_2(charcho_sel)_2]]></data>
+
+
+  <data name="fr_pano66_title"><![CDATA[quai_3_1]]></data>
+
+
+  <data name="fr_pano68_title"><![CDATA[quai_4]]></data>
+
+
+  <data name="fr_pano70_title"><![CDATA[quai_5]]></data>
+
+
+  <data name="fr_pano72_title"><![CDATA[quai_6]]></data>
+
+
+  <data name="fr_pano73_title"><![CDATA[quai_7]]></data>
+
+
+  <data name="fr_pano74_title"><![CDATA[quai_8]]></data>
+
+
+  <data name="fr_pano75_title"><![CDATA[quai_9]]></data>
 
 
 
@@ -51,6 +75,30 @@
   <data name="fr_vr_setup_cb7"><![CDATA[Calibration réussie]]></data>
   <data name="fr_vr_setup_cb8"><![CDATA[Echec de la calibration]]></data>
   <data name="fr_vr_setup_unavailable"><![CDATA[Le mode VR[br]n&#39;est pas disponible sur cet appareil]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
