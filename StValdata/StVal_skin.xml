@@ -2,22 +2,22 @@
 <krpano version="1.19">
 
     
-  <!-- Spot Style - Default Point Spot Style -->
-  <style name="IconDefaultPointSpotStyle"
-         url="%FIRSTXML%/spots/hotspot_neutral_user_defaultpoint0.png"
+  <!-- Spot Style - Default Point Spot Style 1 -->
+  <style name="IconDefaultPointSpotStyle1"
+         url="%FIRSTXML%/spots/openeyes1__1__user_defaultpoint1.png"
          visible="false"
-         onhover="onhoverIconDefaultPointSpotStyle"
-         onout="onoutIconDefaultPointSpotStyle"
+         onhover="onhoverIconDefaultPointSpotStyle1"
+         onout="onoutIconDefaultPointSpotStyle1"
 
 
          />
 
-  <action name="onhoverIconDefaultPointSpotStyle">
+  <action name="onhoverIconDefaultPointSpotStyle1">
     showtooltip('hotspot');
   </action>
 
 
-  <action name="onoutIconDefaultPointSpotStyle">
+  <action name="onoutIconDefaultPointSpotStyle1">
     hideTooltip();
 
 
