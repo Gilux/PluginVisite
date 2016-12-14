@@ -1,10 +1,10 @@
 <panotour version="2.5.5.400">
- <project objectId="0" startSoundsON="true" autorotationDelay="1" autorotationDirection="right" workspaceOriginX="134" workspaceOriginY="0" littlePlanetOnEachPanorama="false" autotourMode="autotourModeFull" workspaceHeight="452" VRcursordisplay="always" autorotationSpeed="5" startWithLittlePlanet="true" startZoomOnCursor="false" startControlsHidden="false" VRkeepview="right" relativePath="True" workspaceWidth="1161" startChangeCursor="true" startTouchType="drag" VRCursorColor="#ffffff" VRCursorAlpha="255" VRIconsColor="#ffffff" startMouseType="moveto" VRIconsAlpha="255" hideControlsDuringIntroduction="true" VRdesktop="right" startVolume="100" workspaceScale="-1" littlePlanetDuration="3">
+ <project objectId="0" startSoundsON="true" autorotationDelay="1" autorotationDirection="right" workspaceOriginX="0" workspaceOriginY="0" littlePlanetOnEachPanorama="false" autotourMode="autotourModeFull" workspaceHeight="452" VRcursordisplay="always" autorotationSpeed="5" startWithLittlePlanet="true" startZoomOnCursor="false" startControlsHidden="false" VRkeepview="right" relativePath="True" workspaceWidth="1161" startChangeCursor="true" startTouchType="drag" VRCursorColor="#ffffff" VRCursorAlpha="255" VRIconsColor="#ffffff" startMouseType="moveto" VRIconsAlpha="255" hideControlsDuringIntroduction="true" VRdesktop="right" startVolume="100" workspaceScale="-1" littlePlanetDuration="3">
   <description foregroundColor="#000000" backgroundColor="#ffffff" name="Nouveau projet" foregroundAlpha="255" backgroundAlpha="255"/>
   <group objectId="59" thumbMode="False" x="35" y="61" nbColumn="-1" explicit="False">
    <description foregroundColor="#ffffff" backgroundColor="#808080" name="Groupe 59" foregroundAlpha="255" backgroundAlpha="255"/>
    <pano objectId="58" x="-1" y="-1" vFov="180" minFov="1" lowres="true" tourDirectory="gare_4_58" maxPixelZoom="true" startPitch="0" maxFov="90" startYaw="0" dontGenerateTiles="false" heading="0" type="0" planar="false" hFov="360" startFov="90" phi="0">
-    <description foregroundColor="#000000" backgroundColor="#ffffff" name="gare_4" foregroundAlpha="255" filename="stvalsources/gare_4.jpg" backgroundAlpha="255"/>
+    <description foregroundColor="#000000" backgroundColor="#ffffff" name="gare_4" foregroundAlpha="255" filename="stvalsources/gare_4 (1).jpg" backgroundAlpha="255"/>
     <spot objectId="80" type="polygon" relativeX="0.371199" relativeY="0.654122" x="50.6798" y="44.0591">
      <description/>
      <presetAction id="user_defaultpolygon0">
@@ -33,7 +33,7 @@
   <group objectId="61" thumbMode="False" x="240" y="-1" nbColumn="-1" explicit="False">
    <description foregroundColor="#ffffff" backgroundColor="#808080" name="Groupe 61" foregroundAlpha="255" backgroundAlpha="255"/>
    <pano objectId="60" x="-1" y="-1" vFov="180" minFov="1" lowres="true" tourDirectory="quai_1_60" maxPixelZoom="true" startPitch="0" maxFov="90" startYaw="0" dontGenerateTiles="false" heading="0" type="0" planar="false" hFov="360" startFov="90" phi="0">
-    <description foregroundColor="#000000" backgroundColor="#ffffff" name="quai_1" foregroundAlpha="255" filename="stvalsources/quai_1.jpg" backgroundAlpha="255"/>
+    <description foregroundColor="#000000" backgroundColor="#ffffff" name="quai_1" foregroundAlpha="255" filename="stvalsources/quai_1 (1).jpg" backgroundAlpha="255"/>
     <spot objectId="81" type="polygon" relativeX="0.528623" relativeY="0.496416" x="74.2934" y="32.2312">
      <description/>
      <presetAction id="user_defaultpolygon0">
@@ -62,7 +62,7 @@
   <group objectId="63" thumbMode="False" x="450" y="-1" nbColumn="-1" explicit="False">
    <description foregroundColor="#ffffff" backgroundColor="#808080" name="Groupe 63" foregroundAlpha="255" backgroundAlpha="255"/>
    <pano objectId="62" x="-1" y="-1" vFov="180" minFov="1" lowres="true" tourDirectory="quai_2_charcho_sel___62" maxPixelZoom="true" startPitch="0" maxFov="90" startYaw="0" dontGenerateTiles="false" heading="0" type="0" planar="false" hFov="360" startFov="90" phi="0">
-    <description foregroundColor="#000000" backgroundColor="#ffffff" name="quai_2(charcho_sel)_2" foregroundAlpha="255" filename="stvalsources/quai_2(charcho_sel)_2.jpg" backgroundAlpha="255"/>
+    <description foregroundColor="#000000" backgroundColor="#ffffff" name="quai_2(charcho_sel)_2" foregroundAlpha="255" filename="stvalsources/quai_2(charcho_sel)_2 (1).jpg" backgroundAlpha="255"/>
     <spot objectId="82" type="polygon" relativeX="0.449911" relativeY="0.548387" x="62.4866" y="36.129">
      <description/>
      <presetAction id="user_defaultpolygon0">
