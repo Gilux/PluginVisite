@@ -10,6 +10,9 @@
 
 
   <data name="fr_pano58_title"><![CDATA[gare_4]]></data>
+  <data name="fr_spotpoint128websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[http://localhost:31415/html/test.html]]></data>
+  <data name="fr_spotpoint128websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="fr_spotpoint330_tooltip"><![CDATA[Suivant !]]></data>
 
 
   <data name="fr_pano60_title"><![CDATA[quai_1]]></data>
@@ -43,6 +46,8 @@
 
 
 
+  <data name="fr_websiteViewerfullscreen_text"><![CDATA[Plein écran]]></data>
+  <data name="fr_websiteViewerclose_text"><![CDATA[Fermer]]></data>
 
 
   <data name="fr_vr_setup_hmd0"><![CDATA[CHOIX DU HMD]]></data>
