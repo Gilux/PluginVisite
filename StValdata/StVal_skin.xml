@@ -59,7 +59,7 @@
     
   <!-- Spot Style - Default Point Spot Style 1_1 -->
   <style name="IconDefaultPointSpotStyle1_1"
-         url="%FIRSTXML%/spots/openeyes1__1__user_defaultpoint11_3.png"
+         url="%FIRSTXML%/spots/logoopeneyes_user_defaultpoint11_3.png"
          visible="false"
          onhover="onhoverIconDefaultPointSpotStyle1_1"
          onout="onoutIconDefaultPointSpotStyle1_1"
