@@ -10,36 +10,72 @@
 
 
   <data name="fr_pano58_title"><![CDATA[gare_4]]></data>
+  <data name="fr_spotpoint128_tooltip"><![CDATA[La gare]]></data>
   <data name="fr_spotpoint128websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[http://localhost:31415/html/test.html]]></data>
   <data name="fr_spotpoint128websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
-  <data name="fr_spotpoint330_tooltip"><![CDATA[Suivant !]]></data>
+  <data name="fr_spotpoint330_tooltip"><![CDATA[Suivant]]></data>
 
 
   <data name="fr_pano60_title"><![CDATA[quai_1]]></data>
+  <data name="fr_spotpoint378_tooltip"><![CDATA[Précédent]]></data>
+  <data name="fr_spotpoint379_tooltip"><![CDATA[Suivant]]></data>
 
 
   <data name="fr_pano62_title"><![CDATA[quai_2(charcho_sel)_2]]></data>
+  <data name="fr_spotpoint380_tooltip"><![CDATA[Précédent]]></data>
+  <data name="fr_spotpoint381_tooltip"><![CDATA[Suivant]]></data>
+  <data name="fr_spotpoint382_tooltip"><![CDATA[Le commandant Charcot]]></data>
+  <data name="fr_spotpoint382websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[]]></data>
+  <data name="fr_spotpoint382websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="fr_spotpoint385_tooltip"><![CDATA[L’entrepôt des sels]]></data>
+  <data name="fr_spotpoint385websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[]]></data>
+  <data name="fr_spotpoint385websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
 
 
   <data name="fr_pano66_title"><![CDATA[quai_3_1]]></data>
+  <data name="fr_spotpoint386_tooltip"><![CDATA[Précédent]]></data>
+  <data name="fr_spotpoint387_tooltip"><![CDATA[Suivant]]></data>
 
 
   <data name="fr_pano68_title"><![CDATA[quai_4]]></data>
+  <data name="fr_spotpoint389_tooltip"><![CDATA[Suivant]]></data>
+  <data name="fr_spotpoint390_tooltip"><![CDATA[Précédent]]></data>
 
 
   <data name="fr_pano70_title"><![CDATA[quai_5]]></data>
+  <data name="fr_spotpoint391_tooltip"><![CDATA[Suivant]]></data>
+  <data name="fr_spotpoint392_tooltip"><![CDATA[Précédent]]></data>
+  <data name="fr_spotpoint393_tooltip"><![CDATA[Les moutons des prés salés]]></data>
+  <data name="fr_spotpoint393websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[]]></data>
+  <data name="fr_spotpoint393websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
 
 
   <data name="fr_pano72_title"><![CDATA[quai_6]]></data>
+  <data name="fr_spotpoint395_tooltip"><![CDATA[Précédent]]></data>
+  <data name="fr_spotpoint396_tooltip"><![CDATA[Suivant]]></data>
+  <data name="fr_spotpoint398_tooltip"><![CDATA[Restauration]]></data>
+  <data name="fr_spotpoint398websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[]]></data>
+  <data name="fr_spotpoint398websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
 
 
   <data name="fr_pano73_title"><![CDATA[quai_7]]></data>
+  <data name="fr_spotpoint399_tooltip"><![CDATA[Précédent]]></data>
+  <data name="fr_spotpoint400_tooltip"><![CDATA[Suivant]]></data>
 
 
   <data name="fr_pano74_title"><![CDATA[quai_8]]></data>
+  <data name="fr_spotpoint401_tooltip"><![CDATA[Précédent]]></data>
+  <data name="fr_spotpoint402_tooltip"><![CDATA[Suivant]]></data>
+  <data name="fr_spotpoint403_tooltip"><![CDATA[Les quais]]></data>
+  <data name="fr_spotpoint403websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[]]></data>
+  <data name="fr_spotpoint403websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
 
 
   <data name="fr_pano75_title"><![CDATA[quai_9]]></data>
+  <data name="fr_spotpoint407_tooltip"><![CDATA[Ballade en Kayak]]></data>
+  <data name="fr_spotpoint407websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[]]></data>
+  <data name="fr_spotpoint407websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="fr_spotpoint408_tooltip"><![CDATA[Précédent]]></data>
 
 
 
