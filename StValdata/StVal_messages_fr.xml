@@ -69,6 +69,7 @@
   <data name="fr_spotpoint403_tooltip"><![CDATA[Les quais]]></data>
   <data name="fr_spotpoint403websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[]]></data>
   <data name="fr_spotpoint403websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
+  <data name="fr_spotpoint457_tooltip"><![CDATA[Suivant]]></data>
 
 
   <data name="fr_pano75_title"><![CDATA[quai_9]]></data>
@@ -78,12 +79,17 @@
   <data name="fr_spotpoint408_tooltip"><![CDATA[Précédent]]></data>
 
 
+  <data name="fr_pano458_title"><![CDATA[eglise]]></data>
+
+
 
 
 
 
   <data name="fr_websiteViewerfullscreen_text"><![CDATA[Plein écran]]></data>
   <data name="fr_websiteViewerclose_text"><![CDATA[Fermer]]></data>
+  <data name="fr_prevnexttheme2prevSceneTip"><![CDATA[Scène précédente]]></data>
+  <data name="fr_prevnexttheme2nextSceneTip"><![CDATA[Scène suivante]]></data>
 
 
   <data name="fr_vr_setup_hmd0"><![CDATA[CHOIX DU HMD]]></data>
@@ -116,6 +122,9 @@
   <data name="fr_vr_setup_cb7"><![CDATA[Calibration réussie]]></data>
   <data name="fr_vr_setup_cb8"><![CDATA[Echec de la calibration]]></data>
   <data name="fr_vr_setup_unavailable"><![CDATA[Le mode VR[br]n&#39;est pas disponible sur cet appareil]]></data>
+
+
+
 
 
 
