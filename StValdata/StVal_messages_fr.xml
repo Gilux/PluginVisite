@@ -11,7 +11,7 @@
 
   <data name="fr_pano58_title"><![CDATA[gare_4]]></data>
   <data name="fr_spotpoint128_tooltip"><![CDATA[La gare]]></data>
-  <data name="fr_spotpoint128websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[http://localhost:31415/html/test.html]]></data>
+  <data name="fr_spotpoint128websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[http://localhost:31415/html/cheminFer.html]]></data>
   <data name="fr_spotpoint128websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
   <data name="fr_spotpoint330_tooltip"><![CDATA[Suivant]]></data>
 
@@ -25,10 +25,10 @@
   <data name="fr_spotpoint380_tooltip"><![CDATA[Précédent]]></data>
   <data name="fr_spotpoint381_tooltip"><![CDATA[Suivant]]></data>
   <data name="fr_spotpoint382_tooltip"><![CDATA[Le commandant Charcot]]></data>
-  <data name="fr_spotpoint382websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[]]></data>
+  <data name="fr_spotpoint382websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[http://localhost:31415/html/cdtCharcot.html]]></data>
   <data name="fr_spotpoint382websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
   <data name="fr_spotpoint385_tooltip"><![CDATA[L’entrepôt des sels]]></data>
-  <data name="fr_spotpoint385websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[]]></data>
+  <data name="fr_spotpoint385websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[http://localhost:31415/html/entrepSel.html]]></data>
   <data name="fr_spotpoint385websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
 
 
@@ -46,7 +46,7 @@
   <data name="fr_spotpoint391_tooltip"><![CDATA[Suivant]]></data>
   <data name="fr_spotpoint392_tooltip"><![CDATA[Précédent]]></data>
   <data name="fr_spotpoint393_tooltip"><![CDATA[Les moutons des prés salés]]></data>
-  <data name="fr_spotpoint393websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[]]></data>
+  <data name="fr_spotpoint393websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[http://localhost:31415/html/mouton.html]]></data>
   <data name="fr_spotpoint393websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
 
 
@@ -54,7 +54,7 @@
   <data name="fr_spotpoint395_tooltip"><![CDATA[Précédent]]></data>
   <data name="fr_spotpoint396_tooltip"><![CDATA[Suivant]]></data>
   <data name="fr_spotpoint398_tooltip"><![CDATA[Restauration]]></data>
-  <data name="fr_spotpoint398websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[]]></data>
+  <data name="fr_spotpoint398websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[http://localhost:31415/html/restauration.html]]></data>
   <data name="fr_spotpoint398websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
 
 
@@ -67,14 +67,14 @@
   <data name="fr_spotpoint401_tooltip"><![CDATA[Précédent]]></data>
   <data name="fr_spotpoint402_tooltip"><![CDATA[Suivant]]></data>
   <data name="fr_spotpoint403_tooltip"><![CDATA[Les quais]]></data>
-  <data name="fr_spotpoint403websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[]]></data>
+  <data name="fr_spotpoint403websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[http://localhost:31415/html/quais.html]]></data>
   <data name="fr_spotpoint403websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
   <data name="fr_spotpoint457_tooltip"><![CDATA[Suivant]]></data>
 
 
   <data name="fr_pano75_title"><![CDATA[quai_9]]></data>
   <data name="fr_spotpoint407_tooltip"><![CDATA[Ballade en Kayak]]></data>
-  <data name="fr_spotpoint407websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[]]></data>
+  <data name="fr_spotpoint407websiteViewer|websiteViewer|displaywebsitewebsite_url"><![CDATA[http://localhost:31415/html/kayak.html]]></data>
   <data name="fr_spotpoint407websiteViewer|websiteViewer|displaywebsitewebsite_title"><![CDATA[]]></data>
   <data name="fr_spotpoint408_tooltip"><![CDATA[Précédent]]></data>
 
