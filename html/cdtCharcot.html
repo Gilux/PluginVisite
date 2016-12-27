@@ -26,6 +26,7 @@
       padding-top: 20px;
       background-color: #f1f1f1;
       height: 100%;
+        width: 100%;
     }
     
     /* Set black background color, white text and some padding */
@@ -33,6 +34,11 @@
       background-color: #555;
       color: white;
       padding: 15px;
+      position:absolute;
+      position:fixed;
+       left:0px;
+       bottom:0px;
+       width: 100%;
     }
     
     /* On small screens, set height to 'auto' for sidenav and grid */
@@ -46,7 +52,7 @@
   </style>
 </head>
 <body>
-    <header><img src="images/banniere.png" alt="Photo de montagne" height="150" width= 100%/></header>
+   
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -56,14 +62,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Logo</a>
+      
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+      
     </div>
   </div>
 </nav>
@@ -80,12 +82,12 @@ Les parcours proposés sont commentés par le capitaine, qui se fera un plaisir 
       <hr>
      
     </div>
-    <div class="col-sm-2 ">
+    <div class="col-sm-4 col-md-2">
       <div class="well">
-        <p><img src="images/bateau.jpg" alt=""height="350" width= "400" /></p>
+        <p><img class="img img-responsive" src="images/bateau1.jpg" alt="" /></p>
       </div>
       <div class="well">
-        <p>ADS</p>
+        <p><img class="img img-responsive" src="images/bateau.jpg" alt="" /></p>
       </div>
     </div>
   </div>

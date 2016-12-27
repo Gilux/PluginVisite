@@ -1,84 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Restauration</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-      header {
-          width: 100%;
-      }
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-        text-align: center
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
-    
-    /* Set gray background color and 100% height */
-    .sidenav {
-      padding-top: 20px;
-      background-color: #f1f1f1;
-      height: 100%;
-    }
-    
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height:auto;} 
-    }
-  </style>
-</head>
-<body>
-    <header><img src="images/banniere.png" alt="Photo de montagne" height="150" width= 100%/></header>
-
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      
-    </div><!DOCTYPE html>
-<html lang="en">
-<head>
   <title>Chemin de fer de la Baie de Somme</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
       header {
           width: 100%;
       }
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
+   /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
-        text-align: center
+        text-align: center;
       margin-bottom: 0;
       border-radius: 0;
     }
+      
+     
     
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
+    .row.content {
+        height: 100%;
+        width: 100%;
+        
+      }
     
     /* Set gray background color and 100% height */
     .sidenav {
@@ -92,6 +39,11 @@
       background-color: #555;
       color: white;
       padding: 15px;
+      position:absolute;
+      position:fixed;
+       left:0px;
+       bottom:0px;
+       width: 100%;
     }
     
     /* On small screens, set height to 'auto' for sidenav and grid */
@@ -104,9 +56,7 @@
     }
   </style>
 </head>
-<body>
-    <header><img src="images/banniere.png" alt="Photo de montagne" height="150" width= 100%/></header>
-
+    <body>
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -115,17 +65,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      
+    
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        
       </ul>
     </div>
   </div>
@@ -134,62 +78,20 @@
 <div class="container-fluid text-center">    
   <div class="row content">
     
-    <div class="col-sm-8 text-center  margin-left: 50px"> 
+    <div class="col-sm-7 text-left">  
       <h1>Chemin de fer de la Baie de Somme</h1>
       <p>Le Chemin de Fer de la Baie de Somme (CFBS) est un chemin de fer touristique français géré par une association sans but lucratif, qui circule de février à décembre entre Le Crotoy et Cayeux-Sur-Mer via Noyelles sur Mer et Saint-Valéry-sur-Somme, sur une ligne à voie métrique appartenant à l'ancien réseau d’intérêt local de la Somme. Il dessert trois stations balnéaires de la Baie de Somme : Le Crotoy, Saint-Valéry-Sur-Somme et Cayeux-Sur-Mer.
-</p>
-      <hr>
-      
-    </div>
-    <div class="col-sm-2 ">
-      <div class="well">
-        <p><img src="images/train.jpg" alt=""height="200" width= "200" /></p>
-      </div>
-      <div class="well">
-        <p><img src="images/trainInter.jpg" alt=""height="200" width= "200" /></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<footer class="container-fluid text-center">
-  <p>&copy; Copyright 2016. All rights reserved.</p>
-</footer>
-
-</body>
-</html>
-
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-  
-<div class="container-fluid text-center">    
-  <div class="row content">
-    
-    <div class="col-sm-8 text-center  margin-left: 50px"> 
-      <h1>Restauration</h1>
-      <p>Une petite faim ? Saint-Valéry possède plusieurs point de restauration un peu partout. D’une simple boisson chaude au repas gastronomique, Saint-Valéry vous permet de déguster les spécialités de la région.
 
 </p>
       <hr>
       
     </div>
-    <div class="col-sm-2 ">
+    <div class="col-sm-5 col-md-3">
       <div class="well">
-        <p><img src="images/train.jpg" alt=""height="200" width= "200" /></p>
+        <p><img class="img img-responsive" src="images/train.jpg" alt="" /></p>
       </div>
       <div class="well">
-        <p><img src="images/trainInter.jpg" alt=""height="200" width= "200" /></p>
+        <p><img class="img img-responsive" src="images/trainInter.jpg" alt="" /></p>
       </div>
     </div>
   </div>

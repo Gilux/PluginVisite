@@ -33,6 +33,11 @@
       background-color: #555;
       color: white;
       padding: 15px;
+      position:absolute;
+      position:fixed;
+       left:0px;
+       bottom:0px;
+       width: 100%;
     }
     
     /* On small screens, set height to 'auto' for sidenav and grid */
@@ -46,8 +51,7 @@
   </style>
 </head>
 <body>
-    <header><img src="images/banniere.png" alt="Photo de montagne" height="150" width= 100%/></header>
-
+    
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -59,11 +63,7 @@
       
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+      
     </div>
   </div>
 </nav>
@@ -71,7 +71,7 @@
 <div class="container-fluid text-center">    
   <div class="row content">
     
-    <div class="col-sm-8 text-center  margin-left: 50px"> 
+    <div class="col-sm-8 text-center">  
       <h1>Les Quais</h1>
       <p>La plupart des Quais de Saint Valery sur Somme portent le nom de célèbres capitaines, qui ont servi sur des navires de guerre à la Révolution ou sous Napoléon, (Lejoille, Blavet, Pérée…). Ils sont bordés par des luxueuses demeures du 19ème qui appartenaient à plus de 80 familles d’armateurs et de Capitaines de Saint Valery. Au bout du quai Jeanne d’Arc, le plus récent avec le Quai Courbet (1860), se situe la plage, nommée autrefois « les Bains de la Ville » où toute la bonne société Parisienne venait en villégiature, logeait dans les somptueuses Villas (1900), se promenait sur les pontons de bois, se changeait dans les cabines ou écoutait de la musique sur le kiosque de la Tour Harold.
 
@@ -79,12 +79,12 @@
       <hr>
       
     </div>
-    <div class="col-sm-2 ">
+    <div class="col-sm-4 col-md-2">
       <div class="well">
-        <p><img src="images/quais.jpg" alt=""height="200" width= "300" /></p>
+        <p><img class="img img-responsive" src="images/quais.jpg" alt="" /></p>
       </div>
       <div class="well">
-        <p><img src="images/quais1.jpg" alt=""height="200" width= "300" /></p>
+        <p><img class="img img-responsive" src="images/quais1.jpg" alt="" /></p>
       </div>
     </div>
   </div>

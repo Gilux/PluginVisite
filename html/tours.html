@@ -33,6 +33,11 @@
       background-color: #555;
       color: white;
       padding: 15px;
+      position:absolute;
+      position:fixed;
+       left:0px;
+       bottom:0px;
+       width: 100%;
     }
     
     /* On small screens, set height to 'auto' for sidenav and grid */
@@ -46,7 +51,7 @@
   </style>
 </head>
 <body>
-    <header><img src="images/banniere.png" alt="Photo de montagne" height="150" width= 100%/></header>
+    
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -59,11 +64,7 @@
       
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+      
     </div>
   </div>
 </nav>
@@ -71,7 +72,7 @@
 <div class="container-fluid text-center">    
   <div class="row content">
     
-    <div class="col-sm-8 text-center  margin-left: 50px"> 
+    <div class="col-sm-8 text-center">
       <h1>Les Tours Guillaume</h1>
       <p>Appelée « Porte du Haut » ou « Porte Jeanne d’Arc » en souvenir de son passage en décembre 1430, c’est un des vestiges les plus anciens de la Ville. Les tours, datées du 11ème , existent déjà lors de l’escale forcée de la flotte de Guillaume de Normandie en 1066. L’ensemble était constitué de deux tours rondes massives, avec consoles et mâchicoulis, deux corps de bâtiments avec un étage et des souterrains qui servaient de corps de garde et de prisons, un pont levis disparu en 1614, et des ouvrages de défense avancés aujourd’hui disparus. L’arcade ogivale a été édifiée en 1785 et un  pan de courtine subsiste encore. Sur les murs pousse en été un œillet rose appelé « l’œillet des croisades ». 
 
@@ -81,12 +82,12 @@
       <hr>
       
     </div>
-    <div class="col-sm-2 ">
+    <div class="col-sm-4 col-md-2">
       <div class="well">
-        <p><img src="images/tour.jpg" alt=""height="200" width= "200" /></p>
+        <p><img class="img img-responsive" src="images/tour.jpg" alt="" /></p>
       </div>
       <div class="well">
-        <p><img src="images/tour1.jpg" alt=""height="200" width= "200" /></p>
+        <p><img class="img img-responsive" src="images/tour1.jpg" alt="" /></p>
       </div>
     </div>
   </div>
